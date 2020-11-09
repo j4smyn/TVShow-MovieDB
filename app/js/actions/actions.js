@@ -1,4 +1,4 @@
-export const API_KEY = '11bc9fe08c1f10b371f6294350503cab';
+export const API_KEY = '4888c9c0bdad651833fac25977549c2c';
 export const FETCHING_MOVIES = 'FETCHING_MOVIES';
 export const SET_MOVIES = 'SET_MOVIES';
 export const SET_CURRENT_MOVIE = 'SET_CURRENT_MOVIE';
