@@ -1,0 +1,23 @@
+.searchFieldContainer{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 52px;
+
+  .searchField {
+    border-radius: 0;
+  }
+
+  .clearIcon {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 767px) {
+  .searchFieldContainer{
+    top: 145px;
+  }
+}

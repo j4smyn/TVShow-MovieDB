@@ -1,0 +1,21 @@
+.header {
+    border-radius: 0;
+    background: #2E363F;
+    border-color: #2E363F;
+
+    .nav {
+        li {
+            a:hover {
+                color: #ffffff !important;
+            }
+
+            a:focus {
+                color: #ffffff !important;
+            }
+        }
+
+        .activeTab {
+            color: #ffffff !important;
+        }
+    }
+}

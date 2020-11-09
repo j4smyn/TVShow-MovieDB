@@ -1,0 +1,41 @@
+.currentMovieContainer {
+
+  .imageContainer {
+    margin-top: 50px;
+    margin-left: 20px;
+    float: left;
+  }
+
+  .movieContent {
+    float: right;
+    width: calc(100% - 340px);
+    margin-left: 20px;
+    margin-top: 50px;
+
+    .currentMovieRate {
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 1px;
+      }
+
+      span {
+        position: absolute;
+        left: 30px;
+        color: #ffffff;
+      }
+    }
+    
+    p {
+      color: #ffffff;
+      width: 90%;
+
+      span {
+        font-weight: 600;
+        line-height: 20px;
+        font-size: 20px;
+      }
+    }
+  }
+}

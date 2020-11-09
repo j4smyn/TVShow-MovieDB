@@ -1,0 +1,29 @@
+.navigationContainer {
+  display: block;
+  clear: both;
+  width: 100%;
+  padding-top: 20px;
+  color: #ffffff;
+  position: relative;
+
+  a {
+    color: inherit;
+    text-decoration: blink;
+  }
+
+  .rightArrow {
+    font-size: 30px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+  }
+
+  .leftArrow {
+    font-size: 30px;
+    position: absolute;
+    right: 55px;
+    top: 15px;
+    cursor: pointer;
+  }
+}
